@@ -1,3 +1,5 @@
+# mapp View CoPilot demo
+
 This is a small sample code to generate a mapp View visualization out of a sketch or describing what the UI should look like.
 
 It uses GPT4-vision model.
