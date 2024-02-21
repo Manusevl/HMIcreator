@@ -38,25 +38,6 @@ app.post('/upload', (req, res) => {
   res.send('Image and text received');
 });
 
-// Define a route to handle the image upload
-// app.post('/upload', upload.single('image'), (req, res) => {
-
-//   console.log(req.file.path);
-
-//   // Call the imageChecker function
-//   imageChecker(req.file.path, req.body.text)
-//     .then(result => {
-//       console.log('Image check result:', result);
-//       res.send('Image uploaded and checked successfully');
-//     })
-//     .catch(err => {
-//       console.error('Image check error:', err);
-//       res.status(500).send('Error checking image');
-//     });
-
-//   res.send('Image uploaded successfully');
-// });
-
 // Start the server
 const port = process.env.PORT || 3001;
 app.listen(port, () => {
